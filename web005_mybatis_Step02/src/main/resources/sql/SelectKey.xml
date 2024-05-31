@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.min.edu.model.SelectKeyDaoImpl">
+	<insert id="insertInfo" parameterType="InfoDto">
+		<!-- selectKey는 dto나 vo에 작성하는 것이 일반적 -->
+		
+		<selectKey keyProperty="seq" resultType="java.lang.Integer" order="BEFORE">
+		<!-- order="BEFORE":default/ before이므로 selectKey 먼저 실행 후 아래 insert 쿼리는 다음에 실행 -->
+		<!-- 여기서 seq 값이 만들어지고 그 값은 InfoDto에 들어감 -->
+			SELECT INFO_SEQ.NEXTVAL SEQ FROM DUAL
+			
+		</selectKey>
+		
+		INSERT INTO INFO(SEQ, NAME, PHONE, AUTH, REGDATE)
+		VALUES(#{seq},#{name},#{phone},'A',SYSDATE)
+	</insert>
+	
+	<select id="selectInfo" parameterType="InfoDto" resultType="InfoDto">
+		SELECT SEQ, NAME, PHONE, AUTH, REGDATE
+		FROM INFO
+		WHERE SEQ=#{seq}
+	</select>
+
+
+</mapper>

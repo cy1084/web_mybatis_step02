@@ -1,0 +1,525 @@
+2024-05-30 12:05:05 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-30 12:05:05 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 12:05:05 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 12:05:05 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 12:05:05 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 12:13:37 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-30 12:13:37 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 12:13:37 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 12:13:37 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 12:13:37 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 14:15:56 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-30 14:15:56 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 14:15:56 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 14:15:56 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 14:15:56 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 14:15:56 INFO  BindingDaoImpl:20 - mybatis의 바인딩 문법은 $와 #
+2024-05-30 14:15:56 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-30 14:15:56 DEBUG PooledDataSource:448 - Created connection 603305436.
+2024-05-30 14:15:56 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@23f5b5dc]
+2024-05-30 14:15:56 DEBUG binding01:137 - ==>  Preparing: SELECT JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY FROM JOBS WHERE JOB_ID = ?
+2024-05-30 14:15:57 DEBUG binding01:137 - ==> Parameters: AV_PREG(String)
+2024-05-30 14:15:57 DEBUG binding01:137 - <==      Total: 0
+2024-05-30 14:18:53 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-30 14:18:53 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 14:18:53 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 14:18:53 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 14:18:53 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 14:18:53 INFO  BindingDaoImpl:20 - mybatis의 바인딩 문법은 $와 #
+2024-05-30 14:18:53 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-30 14:18:53 DEBUG PooledDataSource:448 - Created connection 603305436.
+2024-05-30 14:18:53 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@23f5b5dc]
+2024-05-30 14:18:53 DEBUG binding01:137 - ==>  Preparing: SELECT JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY FROM JOBS WHERE '1'='1' or JOB_ID = ?
+2024-05-30 14:18:53 DEBUG binding01:137 - ==> Parameters: AV_PREG(String)
+2024-05-30 14:18:53 TRACE binding01:143 - <==    Columns: JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY
+2024-05-30 14:18:53 TRACE binding01:143 - <==        Row: AD_PRES, President, 20080, 40000
+2024-05-30 14:18:53 TRACE binding01:143 - <==        Row: AD_VP, Administration Vice President, 15000, 30000
+2024-05-30 14:18:53 TRACE binding01:143 - <==        Row: AD_ASST, Administration Assistant, 3000, 6000
+2024-05-30 14:18:53 TRACE binding01:143 - <==        Row: FI_MGR, Finance Manager, 8200, 16000
+2024-05-30 14:18:53 TRACE binding01:143 - <==        Row: FI_ACCOUNT, Accountant, 4200, 9000
+2024-05-30 14:18:53 TRACE binding01:143 - <==        Row: AC_MGR, Accounting Manager, 8200, 16000
+2024-05-30 14:18:53 TRACE binding01:143 - <==        Row: AC_ACCOUNT, Public Accountant, 4200, 9000
+2024-05-30 14:18:53 TRACE binding01:143 - <==        Row: SA_MAN, Sales Manager, 10000, 20080
+2024-05-30 14:18:53 TRACE binding01:143 - <==        Row: SA_REP, Sales Representative, 6000, 12008
+2024-05-30 14:18:53 TRACE binding01:143 - <==        Row: PU_MAN, Purchasing Manager, 8000, 15000
+2024-05-30 14:18:53 TRACE binding01:143 - <==        Row: PU_CLERK, Purchasing Clerk, 2500, 5500
+2024-05-30 14:18:53 TRACE binding01:143 - <==        Row: ST_MAN, Stock Manager, 5500, 8500
+2024-05-30 14:18:53 TRACE binding01:143 - <==        Row: ST_CLERK, Stock Clerk, 2008, 5000
+2024-05-30 14:18:53 TRACE binding01:143 - <==        Row: SH_CLERK, Shipping Clerk, 2500, 5500
+2024-05-30 14:18:53 TRACE binding01:143 - <==        Row: MK_MAN, Marketing Manager, 9000, 15000
+2024-05-30 14:18:53 TRACE binding01:143 - <==        Row: MK_REP, Marketing Representative, 4000, 9000
+2024-05-30 14:18:53 TRACE binding01:143 - <==        Row: HR_REP, Human Resources Representative, 4000, 9000
+2024-05-30 14:18:53 TRACE binding01:143 - <==        Row: PR_REP, Public Relations Representative, 4500, 10500
+2024-05-30 14:18:53 DEBUG binding01:137 - <==      Total: 18
+2024-05-30 14:21:19 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-30 14:21:19 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 14:21:19 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 14:21:19 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 14:21:19 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 14:21:19 INFO  BindingDaoImpl:20 - mybatis의 바인딩 문법은 $와 #
+2024-05-30 14:21:19 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-30 14:21:20 DEBUG PooledDataSource:448 - Created connection 603305436.
+2024-05-30 14:21:20 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@23f5b5dc]
+2024-05-30 14:21:20 DEBUG binding01:137 - ==>  Preparing: SELECT JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY FROM JOBS WHERE JOB_ID = ?
+2024-05-30 14:21:20 DEBUG binding01:137 - ==> Parameters: AV_PREG(String)
+2024-05-30 14:21:20 DEBUG binding01:137 - <==      Total: 0
+2024-05-30 14:21:37 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-30 14:21:37 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 14:21:37 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 14:21:37 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 14:21:37 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 14:21:37 INFO  BindingDaoImpl:20 - mybatis의 바인딩 문법은 $와 #
+2024-05-30 14:21:37 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-30 14:21:38 DEBUG PooledDataSource:448 - Created connection 603305436.
+2024-05-30 14:21:38 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@23f5b5dc]
+2024-05-30 14:21:38 DEBUG binding01:137 - ==>  Preparing: SELECT JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY FROM JOBS WHERE '1'='1' or JOB_ID = ?
+2024-05-30 14:21:38 DEBUG binding01:137 - ==> Parameters: AV_PREG(String)
+2024-05-30 14:21:38 TRACE binding01:143 - <==    Columns: JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY
+2024-05-30 14:21:38 TRACE binding01:143 - <==        Row: AD_PRES, President, 20080, 40000
+2024-05-30 14:21:38 TRACE binding01:143 - <==        Row: AD_VP, Administration Vice President, 15000, 30000
+2024-05-30 14:21:38 TRACE binding01:143 - <==        Row: AD_ASST, Administration Assistant, 3000, 6000
+2024-05-30 14:21:38 TRACE binding01:143 - <==        Row: FI_MGR, Finance Manager, 8200, 16000
+2024-05-30 14:21:38 TRACE binding01:143 - <==        Row: FI_ACCOUNT, Accountant, 4200, 9000
+2024-05-30 14:21:38 TRACE binding01:143 - <==        Row: AC_MGR, Accounting Manager, 8200, 16000
+2024-05-30 14:21:38 TRACE binding01:143 - <==        Row: AC_ACCOUNT, Public Accountant, 4200, 9000
+2024-05-30 14:21:38 TRACE binding01:143 - <==        Row: SA_MAN, Sales Manager, 10000, 20080
+2024-05-30 14:21:38 TRACE binding01:143 - <==        Row: SA_REP, Sales Representative, 6000, 12008
+2024-05-30 14:21:38 TRACE binding01:143 - <==        Row: PU_MAN, Purchasing Manager, 8000, 15000
+2024-05-30 14:21:38 TRACE binding01:143 - <==        Row: PU_CLERK, Purchasing Clerk, 2500, 5500
+2024-05-30 14:21:38 TRACE binding01:143 - <==        Row: ST_MAN, Stock Manager, 5500, 8500
+2024-05-30 14:21:38 TRACE binding01:143 - <==        Row: ST_CLERK, Stock Clerk, 2008, 5000
+2024-05-30 14:21:38 TRACE binding01:143 - <==        Row: SH_CLERK, Shipping Clerk, 2500, 5500
+2024-05-30 14:21:38 TRACE binding01:143 - <==        Row: MK_MAN, Marketing Manager, 9000, 15000
+2024-05-30 14:21:38 TRACE binding01:143 - <==        Row: MK_REP, Marketing Representative, 4000, 9000
+2024-05-30 14:21:38 TRACE binding01:143 - <==        Row: HR_REP, Human Resources Representative, 4000, 9000
+2024-05-30 14:21:38 TRACE binding01:143 - <==        Row: PR_REP, Public Relations Representative, 4500, 10500
+2024-05-30 14:21:38 DEBUG binding01:137 - <==      Total: 18
+2024-05-30 14:29:54 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-30 14:29:54 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 14:29:54 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 14:29:54 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 14:29:54 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 14:29:54 INFO  BindingDaoImpl:20 - mybatis의 바인딩 문법은 $와 #
+2024-05-30 14:29:54 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-30 14:29:54 DEBUG PooledDataSource:448 - Created connection 603305436.
+2024-05-30 14:29:54 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@23f5b5dc]
+2024-05-30 14:29:54 DEBUG binding01:137 - ==>  Preparing: SELECT JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY FROM JOBS WHERE '1'='1' or JOB_ID LIKE?
+2024-05-30 14:29:54 DEBUG binding01:137 - ==> Parameters: AV_PREG(String)
+2024-05-30 14:29:54 TRACE binding01:143 - <==    Columns: JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY
+2024-05-30 14:29:54 TRACE binding01:143 - <==        Row: AD_PRES, President, 20080, 40000
+2024-05-30 14:29:54 TRACE binding01:143 - <==        Row: AD_VP, Administration Vice President, 15000, 30000
+2024-05-30 14:29:54 TRACE binding01:143 - <==        Row: AD_ASST, Administration Assistant, 3000, 6000
+2024-05-30 14:29:54 TRACE binding01:143 - <==        Row: FI_MGR, Finance Manager, 8200, 16000
+2024-05-30 14:29:54 TRACE binding01:143 - <==        Row: FI_ACCOUNT, Accountant, 4200, 9000
+2024-05-30 14:29:54 TRACE binding01:143 - <==        Row: AC_MGR, Accounting Manager, 8200, 16000
+2024-05-30 14:29:54 TRACE binding01:143 - <==        Row: AC_ACCOUNT, Public Accountant, 4200, 9000
+2024-05-30 14:29:54 TRACE binding01:143 - <==        Row: SA_MAN, Sales Manager, 10000, 20080
+2024-05-30 14:29:54 TRACE binding01:143 - <==        Row: SA_REP, Sales Representative, 6000, 12008
+2024-05-30 14:29:54 TRACE binding01:143 - <==        Row: PU_MAN, Purchasing Manager, 8000, 15000
+2024-05-30 14:29:54 TRACE binding01:143 - <==        Row: PU_CLERK, Purchasing Clerk, 2500, 5500
+2024-05-30 14:29:54 TRACE binding01:143 - <==        Row: ST_MAN, Stock Manager, 5500, 8500
+2024-05-30 14:29:54 TRACE binding01:143 - <==        Row: ST_CLERK, Stock Clerk, 2008, 5000
+2024-05-30 14:29:54 TRACE binding01:143 - <==        Row: SH_CLERK, Shipping Clerk, 2500, 5500
+2024-05-30 14:29:54 TRACE binding01:143 - <==        Row: MK_MAN, Marketing Manager, 9000, 15000
+2024-05-30 14:29:54 TRACE binding01:143 - <==        Row: MK_REP, Marketing Representative, 4000, 9000
+2024-05-30 14:29:54 TRACE binding01:143 - <==        Row: HR_REP, Human Resources Representative, 4000, 9000
+2024-05-30 14:29:54 TRACE binding01:143 - <==        Row: PR_REP, Public Relations Representative, 4500, 10500
+2024-05-30 14:29:54 DEBUG binding01:137 - <==      Total: 18
+2024-05-30 15:38:48 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-30 15:38:48 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 15:38:48 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 15:38:48 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 15:38:48 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 15:38:48 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-30 15:38:48 DEBUG PooledDataSource:448 - Created connection 1107412069.
+2024-05-30 15:38:48 DEBUG insertInfo:137 - ==>  Preparing: INSERT INTO INFO(SEQ, NAME, "phone", AUTH, REGDATE) VALUES(?,?,?,'a',SYSDATE);
+2024-05-30 15:38:48 INFO  BindingDaoImpl:27 - mybatis에서 LIKE 연산자 사용하기
+2024-05-30 15:38:48 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-30 15:38:48 DEBUG PooledDataSource:448 - Created connection 1278002745.
+2024-05-30 15:38:48 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@4c2cc639]
+2024-05-30 15:38:48 DEBUG binding01:137 - ==>  Preparing: SELECT JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY FROM JOBS WHERE = ?
+2024-05-30 15:38:48 DEBUG binding01:137 - ==> Parameters: IT_DEV(String)
+2024-05-30 15:49:53 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-30 15:49:53 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 15:49:53 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 15:49:53 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 15:49:53 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 15:49:53 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-30 15:49:53 DEBUG PooledDataSource:448 - Created connection 713312506.
+2024-05-30 15:49:53 DEBUG insertInfo!selectKey:137 - ==>  Preparing: SELECT INFO_SEQ.NEXTVAL AS SEQ FROM DUAL
+2024-05-30 15:49:53 DEBUG insertInfo!selectKey:137 - ==> Parameters: 
+2024-05-30 15:49:53 TRACE insertInfo!selectKey:143 - <==    Columns: SEQ
+2024-05-30 15:49:53 TRACE insertInfo!selectKey:143 - <==        Row: 21
+2024-05-30 15:49:53 DEBUG insertInfo!selectKey:137 - <==      Total: 1
+2024-05-30 15:49:53 DEBUG insertInfo:137 - ==>  Preparing: INSERT INTO INFO(SEQ, NAME, "phone", AUTH, REGDATE) VALUES(?,?,?,'a',SYSDATE)
+2024-05-30 15:49:53 DEBUG insertInfo:137 - ==> Parameters: 21(Integer), 오월(String), 05(String)
+2024-05-30 15:49:53 INFO  BindingDaoImpl:27 - mybatis에서 LIKE 연산자 사용하기
+2024-05-30 15:49:53 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-30 15:49:53 DEBUG PooledDataSource:448 - Created connection 616412281.
+2024-05-30 15:49:53 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@24bdb479]
+2024-05-30 15:49:53 DEBUG binding01:137 - ==>  Preparing: SELECT JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY FROM JOBS WHERE = ?
+2024-05-30 15:49:53 DEBUG binding01:137 - ==> Parameters: IT_DEV(String)
+2024-05-30 16:03:04 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-30 16:03:04 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 16:03:04 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 16:03:04 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 16:03:04 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 16:03:04 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-30 16:03:04 DEBUG PooledDataSource:448 - Created connection 713312506.
+2024-05-30 16:03:04 DEBUG insertInfo!selectKey:137 - ==>  Preparing: SELECT INFO_SEQ.NEXTVAL AS SEQ FROM DUAL
+2024-05-30 16:03:04 DEBUG insertInfo!selectKey:137 - ==> Parameters: 
+2024-05-30 16:03:04 TRACE insertInfo!selectKey:143 - <==    Columns: SEQ
+2024-05-30 16:03:04 TRACE insertInfo!selectKey:143 - <==        Row: 22
+2024-05-30 16:03:04 DEBUG insertInfo!selectKey:137 - <==      Total: 1
+2024-05-30 16:03:04 DEBUG insertInfo:137 - ==>  Preparing: INSERT INTO INFO(SEQ, NAME, "phone", AUTH, REGDATE) VALUES(?,?,?,'A',SYSDATE)
+2024-05-30 16:03:04 DEBUG insertInfo:137 - ==> Parameters: 22(Integer), 오월(String), 05(String)
+2024-05-30 16:03:04 INFO  BindingDaoImpl:27 - mybatis에서 LIKE 연산자 사용하기
+2024-05-30 16:03:04 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-30 16:03:04 DEBUG PooledDataSource:448 - Created connection 1269118128.
+2024-05-30 16:03:04 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@4ba534b0]
+2024-05-30 16:03:04 DEBUG binding01:137 - ==>  Preparing: SELECT JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY FROM JOBS WHERE = ?
+2024-05-30 16:03:04 DEBUG binding01:137 - ==> Parameters: IT_DEV(String)
+2024-05-30 16:06:29 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-30 16:06:29 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 16:06:29 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 16:06:29 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 16:06:29 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 16:06:29 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-30 16:06:29 DEBUG PooledDataSource:448 - Created connection 713312506.
+2024-05-30 16:06:29 DEBUG insertInfo!selectKey:137 - ==>  Preparing: SELECT INFO_SEQ.NEXTVAL SEQ FROM DUAL
+2024-05-30 16:06:29 DEBUG insertInfo!selectKey:137 - ==> Parameters: 
+2024-05-30 16:06:29 TRACE insertInfo!selectKey:143 - <==    Columns: SEQ
+2024-05-30 16:06:29 TRACE insertInfo!selectKey:143 - <==        Row: 23
+2024-05-30 16:06:29 DEBUG insertInfo!selectKey:137 - <==      Total: 1
+2024-05-30 16:06:29 DEBUG insertInfo:137 - ==>  Preparing: INSERT INTO INFO(SEQ, NAME, "phone", AUTH, REGDATE) VALUES(?,?,?,'A',SYSDATE)
+2024-05-30 16:06:29 DEBUG insertInfo:137 - ==> Parameters: 23(Integer), 오월(String), 05(String)
+2024-05-30 16:06:29 INFO  BindingDaoImpl:27 - mybatis에서 LIKE 연산자 사용하기
+2024-05-30 16:06:29 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-30 16:06:29 DEBUG PooledDataSource:448 - Created connection 1705665942.
+2024-05-30 16:06:29 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@65aa6596]
+2024-05-30 16:06:29 DEBUG binding01:137 - ==>  Preparing: SELECT JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY FROM JOBS WHERE = ?
+2024-05-30 16:06:29 DEBUG binding01:137 - ==> Parameters: IT_DEV(String)
+2024-05-30 16:08:13 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-30 16:08:13 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 16:08:13 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 16:08:13 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 16:08:13 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 16:08:13 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-30 16:08:13 DEBUG PooledDataSource:448 - Created connection 713312506.
+2024-05-30 16:08:13 DEBUG insertInfo!selectKey:137 - ==>  Preparing: SELECT INFO_SEQ.NEXTVAL SEQ FROM DUAL
+2024-05-30 16:08:13 DEBUG insertInfo!selectKey:137 - ==> Parameters: 
+2024-05-30 16:08:13 TRACE insertInfo!selectKey:143 - <==    Columns: SEQ
+2024-05-30 16:08:13 TRACE insertInfo!selectKey:143 - <==        Row: 24
+2024-05-30 16:08:13 DEBUG insertInfo!selectKey:137 - <==      Total: 1
+2024-05-30 16:08:13 DEBUG insertInfo:137 - ==>  Preparing: INSERT INTO INFO(SEQ, NAME, PHONE, AUTH, REGDATE) VALUES(?,?,?,'A',SYSDATE)
+2024-05-30 16:08:13 DEBUG insertInfo:137 - ==> Parameters: 24(Integer), 오월(String), 05(String)
+2024-05-30 16:08:13 DEBUG insertInfo:137 - <==    Updates: 1
+2024-05-30 16:08:13 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-30 16:08:13 DEBUG PooledDataSource:448 - Created connection 1398260359.
+2024-05-30 16:08:13 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@5357c287]
+2024-05-30 16:08:13 DEBUG selectInfo:137 - ==>  Preparing: SELECT SEQ, NAME, PHONE, AUTH, REGDATE FROM INFO WHERE SEQ=?
+2024-05-30 16:08:13 DEBUG selectInfo:137 - ==> Parameters: 24(Integer)
+2024-05-30 16:08:13 TRACE selectInfo:143 - <==    Columns: SEQ, NAME, PHONE, AUTH, REGDATE
+2024-05-30 16:08:13 TRACE selectInfo:143 - <==        Row: 24, 오월, 05, A, 2024-05-30 16:08:13
+2024-05-30 16:08:13 DEBUG selectInfo:137 - <==      Total: 1
+2024-05-30 16:08:13 INFO  BindingDaoImpl:27 - mybatis에서 LIKE 연산자 사용하기
+2024-05-30 16:08:13 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-30 16:08:13 DEBUG PooledDataSource:448 - Created connection 742255664.
+2024-05-30 16:08:13 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@2c3dec30]
+2024-05-30 16:08:13 DEBUG binding01:137 - ==>  Preparing: SELECT JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY FROM JOBS WHERE = ?
+2024-05-30 16:08:13 DEBUG binding01:137 - ==> Parameters: IT_DEV(String)
+2024-05-30 16:15:22 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-30 16:15:22 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 16:15:22 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 16:15:22 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 16:15:22 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 16:15:22 INFO  BindingDaoImpl:27 - mybatis에서 LIKE 연산자 사용하기
+2024-05-30 16:15:22 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-30 16:15:23 DEBUG PooledDataSource:448 - Created connection 93199773.
+2024-05-30 16:15:23 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@58e1d9d]
+2024-05-30 16:15:23 DEBUG binding01:137 - ==>  Preparing: SELECT JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY FROM JOBS WHERE = ?
+2024-05-30 16:15:23 DEBUG binding01:137 - ==> Parameters: IT_DEV(String)
+2024-05-30 16:17:08 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-30 16:17:08 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 16:17:08 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 16:17:08 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 16:17:08 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 16:17:08 INFO  BindingDaoImpl:27 - mybatis에서 LIKE 연산자 사용하기
+2024-05-30 16:17:08 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-30 16:17:08 DEBUG PooledDataSource:448 - Created connection 1074263646.
+2024-05-30 16:17:08 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@4007f65e]
+2024-05-30 16:17:08 DEBUG binding02:137 - ==>  Preparing: SELECT JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY FROM JOBS WHERE JOB_ID LIKE ?||'%'
+2024-05-30 16:17:08 DEBUG binding02:137 - ==> Parameters: IT_DEV(String)
+2024-05-30 16:17:09 DEBUG binding02:137 - <==      Total: 0
+2024-05-30 16:34:49 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-30 16:34:49 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 16:34:49 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 16:34:49 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 16:34:49 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 16:34:49 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-30 16:34:49 DEBUG PooledDataSource:448 - Created connection 1197251633.
+2024-05-30 16:34:49 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@475c9c31]
+2024-05-30 16:34:49 DEBUG getJobsIf:137 - ==>  Preparing: SELECT JOB_ID, JOB_TITLE, MIN_SALARY MAX_SALARY FROM JOBS
+2024-05-30 16:34:49 DEBUG getJobsIf:137 - ==> Parameters: 
+2024-05-30 16:34:49 TRACE getJobsIf:143 - <==    Columns: JOB_ID, JOB_TITLE, MAX_SALARY
+2024-05-30 16:34:49 TRACE getJobsIf:143 - <==        Row: AD_PRES, President, 20080
+2024-05-30 16:34:49 TRACE getJobsIf:143 - <==        Row: AD_VP, Administration Vice President, 15000
+2024-05-30 16:34:49 TRACE getJobsIf:143 - <==        Row: AD_ASST, Administration Assistant, 3000
+2024-05-30 16:34:49 TRACE getJobsIf:143 - <==        Row: FI_MGR, Finance Manager, 8200
+2024-05-30 16:34:49 TRACE getJobsIf:143 - <==        Row: FI_ACCOUNT, Accountant, 4200
+2024-05-30 16:34:49 TRACE getJobsIf:143 - <==        Row: AC_MGR, Accounting Manager, 8200
+2024-05-30 16:34:49 TRACE getJobsIf:143 - <==        Row: AC_ACCOUNT, Public Accountant, 4200
+2024-05-30 16:34:49 TRACE getJobsIf:143 - <==        Row: SA_MAN, Sales Manager, 10000
+2024-05-30 16:34:49 TRACE getJobsIf:143 - <==        Row: SA_REP, Sales Representative, 6000
+2024-05-30 16:34:49 TRACE getJobsIf:143 - <==        Row: PU_MAN, Purchasing Manager, 8000
+2024-05-30 16:34:49 TRACE getJobsIf:143 - <==        Row: PU_CLERK, Purchasing Clerk, 2500
+2024-05-30 16:34:49 TRACE getJobsIf:143 - <==        Row: ST_MAN, Stock Manager, 5500
+2024-05-30 16:34:49 TRACE getJobsIf:143 - <==        Row: ST_CLERK, Stock Clerk, 2008
+2024-05-30 16:34:49 TRACE getJobsIf:143 - <==        Row: SH_CLERK, Shipping Clerk, 2500
+2024-05-30 16:34:49 TRACE getJobsIf:143 - <==        Row: MK_MAN, Marketing Manager, 9000
+2024-05-30 16:34:49 TRACE getJobsIf:143 - <==        Row: MK_REP, Marketing Representative, 4000
+2024-05-30 16:34:49 TRACE getJobsIf:143 - <==        Row: HR_REP, Human Resources Representative, 4000
+2024-05-30 16:34:49 TRACE getJobsIf:143 - <==        Row: PR_REP, Public Relations Representative, 4500
+2024-05-30 16:34:49 DEBUG getJobsIf:137 - <==      Total: 18
+2024-05-30 16:35:17 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-30 16:35:17 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 16:35:17 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 16:35:17 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 16:35:17 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 16:35:17 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-30 16:35:18 DEBUG PooledDataSource:448 - Created connection 1552326679.
+2024-05-30 16:35:18 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@5c86a017]
+2024-05-30 16:35:18 DEBUG getJobsIf:137 - ==>  Preparing: SELECT JOB_ID, JOB_TITLE, MIN_SALARY MAX_SALARY FROM JOBS
+2024-05-30 16:35:18 DEBUG getJobsIf:137 - ==> Parameters: 
+2024-05-30 16:35:18 TRACE getJobsIf:143 - <==    Columns: JOB_ID, JOB_TITLE, MAX_SALARY
+2024-05-30 16:35:18 TRACE getJobsIf:143 - <==        Row: AD_PRES, President, 20080
+2024-05-30 16:35:18 TRACE getJobsIf:143 - <==        Row: AD_VP, Administration Vice President, 15000
+2024-05-30 16:35:18 TRACE getJobsIf:143 - <==        Row: AD_ASST, Administration Assistant, 3000
+2024-05-30 16:35:18 TRACE getJobsIf:143 - <==        Row: FI_MGR, Finance Manager, 8200
+2024-05-30 16:35:18 TRACE getJobsIf:143 - <==        Row: FI_ACCOUNT, Accountant, 4200
+2024-05-30 16:35:18 TRACE getJobsIf:143 - <==        Row: AC_MGR, Accounting Manager, 8200
+2024-05-30 16:35:18 TRACE getJobsIf:143 - <==        Row: AC_ACCOUNT, Public Accountant, 4200
+2024-05-30 16:35:18 TRACE getJobsIf:143 - <==        Row: SA_MAN, Sales Manager, 10000
+2024-05-30 16:35:18 TRACE getJobsIf:143 - <==        Row: SA_REP, Sales Representative, 6000
+2024-05-30 16:35:18 TRACE getJobsIf:143 - <==        Row: PU_MAN, Purchasing Manager, 8000
+2024-05-30 16:35:18 TRACE getJobsIf:143 - <==        Row: PU_CLERK, Purchasing Clerk, 2500
+2024-05-30 16:35:18 TRACE getJobsIf:143 - <==        Row: ST_MAN, Stock Manager, 5500
+2024-05-30 16:35:18 TRACE getJobsIf:143 - <==        Row: ST_CLERK, Stock Clerk, 2008
+2024-05-30 16:35:18 TRACE getJobsIf:143 - <==        Row: SH_CLERK, Shipping Clerk, 2500
+2024-05-30 16:35:18 TRACE getJobsIf:143 - <==        Row: MK_MAN, Marketing Manager, 9000
+2024-05-30 16:35:18 TRACE getJobsIf:143 - <==        Row: MK_REP, Marketing Representative, 4000
+2024-05-30 16:35:18 TRACE getJobsIf:143 - <==        Row: HR_REP, Human Resources Representative, 4000
+2024-05-30 16:35:18 TRACE getJobsIf:143 - <==        Row: PR_REP, Public Relations Representative, 4500
+2024-05-30 16:35:18 DEBUG getJobsIf:137 - <==      Total: 18
+2024-05-30 16:35:39 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-30 16:35:39 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 16:35:39 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 16:35:39 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 16:35:39 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-30 16:35:39 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-30 16:35:40 DEBUG PooledDataSource:448 - Created connection 1197251633.
+2024-05-30 16:35:40 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@475c9c31]
+2024-05-30 16:35:40 DEBUG getJobsIf:137 - ==>  Preparing: SELECT JOB_ID, JOB_TITLE, MIN_SALARY MAX_SALARY FROM JOBS WHERE JOB_ID=?
+2024-05-30 16:35:40 DEBUG getJobsIf:137 - ==> Parameters: AD_PREG(String)
+2024-05-30 16:35:40 DEBUG getJobsIf:137 - <==      Total: 0
+2024-05-31 09:47:14 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-31 09:47:14 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 09:47:14 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 09:47:14 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 09:47:14 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 09:47:14 INFO  BindingDaoImpl:27 - mybatis에서 LIKE 연산자 사용하기
+2024-05-31 09:47:14 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-31 09:47:14 DEBUG PooledDataSource:448 - Created connection 1534694976.
+2024-05-31 09:47:14 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@5b799640]
+2024-05-31 09:47:14 DEBUG binding02:137 - ==>  Preparing: SELECT JOB_ID, JOB_TITLE, MIN_SALARY, MAX_SALARY FROM JOBS WHERE JOB_ID LIKE ?||'%'
+2024-05-31 09:47:14 DEBUG binding02:137 - ==> Parameters: IT_DEV(String)
+2024-05-31 09:47:14 DEBUG binding02:137 - <==      Total: 0
+2024-05-31 10:18:34 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-31 10:18:34 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 10:18:34 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 10:18:34 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 10:18:34 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 10:18:34 INFO  DynamicDaoImpl:26 - foreach문을 통한 다중 값 사용:{ids=[Ljava.lang.String;@76c3e77a}
+2024-05-31 10:18:34 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-31 10:18:35 DEBUG PooledDataSource:448 - Created connection 2129442232.
+2024-05-31 10:18:35 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@7eecb5b8]
+2024-05-31 10:18:35 DEBUG getJobsMap:137 - ==>  Preparing: SELECT JOB_ID, JOB_TITLE, MIN_SALARY MAX_SALARY FROM JOBS WHERE JOB_ID IN ( ? , ? )
+2024-05-31 10:18:35 DEBUG getJobsMap:137 - ==> Parameters: PR_REP(String), SA_MAN(String)
+2024-05-31 10:18:35 TRACE getJobsMap:143 - <==    Columns: JOB_ID, JOB_TITLE, MAX_SALARY
+2024-05-31 10:18:35 TRACE getJobsMap:143 - <==        Row: SA_MAN, Sales Manager, 10000
+2024-05-31 10:18:35 TRACE getJobsMap:143 - <==        Row: PR_REP, Public Relations Representative, 4500
+2024-05-31 10:18:35 DEBUG getJobsMap:137 - <==      Total: 2
+2024-05-31 10:32:08 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-31 10:32:08 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 10:32:08 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 10:32:08 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 10:32:08 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 10:32:09 INFO  DynamicDaoImpl:34 - foreach문을 통한 다중 값 사용 list:[PR_REP, SA_MAN]
+2024-05-31 10:32:09 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-31 10:32:09 DEBUG PooledDataSource:448 - Created connection 1473981203.
+2024-05-31 10:32:09 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@57db2b13]
+2024-05-31 10:32:09 DEBUG getJobsList:137 - ==>  Preparing: SELECT JOB_ID, JOB_TITLE, MIN_SALARY MAX_SALARY FROM JOBS WHERE JOB_ID IN ( ? , ? )
+2024-05-31 10:32:09 DEBUG getJobsList:137 - ==> Parameters: PR_REP(String), SA_MAN(String)
+2024-05-31 10:32:09 TRACE getJobsList:143 - <==    Columns: JOB_ID, JOB_TITLE, MAX_SALARY
+2024-05-31 10:32:09 TRACE getJobsList:143 - <==        Row: SA_MAN, Sales Manager, 10000
+2024-05-31 10:32:09 TRACE getJobsList:143 - <==        Row: PR_REP, Public Relations Representative, 4500
+2024-05-31 10:32:09 DEBUG getJobsList:137 - <==      Total: 2
+2024-05-31 10:49:22 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-31 10:49:22 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 10:49:22 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 10:49:22 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 10:49:22 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 10:49:55 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-31 10:49:55 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 10:49:55 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 10:49:55 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 10:49:55 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 10:49:55 INFO  DynamicDaoImpl:43 - foreach문을 통한 다중 값 사용 list+index:[날씨, 맑음, 여행, 영화]
+2024-05-31 10:49:55 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-31 10:49:55 DEBUG PooledDataSource:448 - Created connection 1197251633.
+2024-05-31 10:49:55 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@475c9c31]
+2024-05-31 10:49:55 DEBUG example01:137 - ==>  Preparing: SELECT ? AS IDX, ? AS NAME FROM DUAL UNION ALL SELECT ? AS IDX, ? AS NAME FROM DUAL UNION ALL SELECT ? AS IDX, ? AS NAME FROM DUAL UNION ALL SELECT ? AS IDX, ? AS NAME FROM DUAL
+2024-05-31 10:49:55 DEBUG example01:137 - ==> Parameters: 0(Integer), 날씨(String), 1(Integer), 맑음(String), 2(Integer), 여행(String), 3(Integer), 영화(String)
+2024-05-31 10:49:56 TRACE example01:143 - <==    Columns: IDX, NAME
+2024-05-31 10:49:56 TRACE example01:143 - <==        Row: 0, 날씨
+2024-05-31 10:49:56 TRACE example01:143 - <==        Row: 1, 맑음
+2024-05-31 10:49:56 TRACE example01:143 - <==        Row: 2, 여행
+2024-05-31 10:49:56 TRACE example01:143 - <==        Row: 3, 영화
+2024-05-31 10:49:56 DEBUG example01:137 - <==      Total: 4
+2024-05-31 11:28:05 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-31 11:28:05 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 11:28:05 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 11:28:05 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 11:28:05 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 11:28:39 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-31 11:28:39 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 11:28:39 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 11:28:39 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 11:28:39 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 11:29:12 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-31 11:29:12 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 11:29:12 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 11:29:12 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 11:29:12 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 11:30:31 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-31 11:30:31 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 11:30:31 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 11:30:31 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 11:30:31 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 11:30:31 INFO  DynamicDaoImpl:52 - choose 입력된 것 중 하나가 조건이 됨: {job_title=president}
+2024-05-31 11:30:31 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-31 11:30:32 DEBUG PooledDataSource:448 - Created connection 220454978.
+2024-05-31 11:30:32 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@d23e042]
+2024-05-31 11:30:32 DEBUG getJobsChoose:137 - ==>  Preparing: SELECT JOB_ID, JOB_TITLE, MIN_SALARY MAX_SALARY FROM JOBS WHERE JOB_TITLE=?
+2024-05-31 11:30:32 DEBUG getJobsChoose:137 - ==> Parameters: president(String)
+2024-05-31 11:30:32 DEBUG getJobsChoose:137 - <==      Total: 0
+2024-05-31 11:31:10 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-31 11:31:10 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 11:31:10 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 11:31:10 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 11:31:10 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 11:31:10 INFO  DynamicDaoImpl:52 - choose 입력된 것 중 하나가 조건이 됨: {job_title=President}
+2024-05-31 11:31:10 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-31 11:31:10 DEBUG PooledDataSource:448 - Created connection 220454978.
+2024-05-31 11:31:10 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@d23e042]
+2024-05-31 11:31:10 DEBUG getJobsChoose:137 - ==>  Preparing: SELECT JOB_ID, JOB_TITLE, MIN_SALARY MAX_SALARY FROM JOBS WHERE JOB_TITLE=?
+2024-05-31 11:31:10 DEBUG getJobsChoose:137 - ==> Parameters: President(String)
+2024-05-31 11:31:10 TRACE getJobsChoose:143 - <==    Columns: JOB_ID, JOB_TITLE, MAX_SALARY
+2024-05-31 11:31:10 TRACE getJobsChoose:143 - <==        Row: AD_PRES, President, 20080
+2024-05-31 11:31:10 DEBUG getJobsChoose:137 - <==      Total: 1
+2024-05-31 11:52:39 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-31 11:52:39 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 11:52:39 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 11:52:39 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 11:52:39 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 11:52:39 INFO  DynamicDaoImpl:61 - trim과 prifix 문법JobsDto [job_id=AD_PRES, job_title=President, min_salary=0, max_salary=0]
+2024-05-31 11:52:39 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-31 11:52:39 DEBUG PooledDataSource:448 - Created connection 940857381.
+2024-05-31 11:52:39 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@38145825]
+2024-05-31 11:52:39 DEBUG getJobsTrim:137 - ==>  Preparing: SELECT JOB_ID, JOB_TITLE, MIN_SALARY MAX_SALARY FROM JOBS WHERE JOB_ID=? AND JOB_TITLE=?
+2024-05-31 11:52:39 DEBUG getJobsTrim:137 - ==> Parameters: AD_PRES(String), President(String)
+2024-05-31 11:52:39 TRACE getJobsTrim:143 - <==    Columns: JOB_ID, JOB_TITLE, MAX_SALARY
+2024-05-31 11:52:39 TRACE getJobsTrim:143 - <==        Row: AD_PRES, President, 20080
+2024-05-31 11:52:39 DEBUG getJobsTrim:137 - <==      Total: 1
+2024-05-31 12:03:47 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-31 12:03:47 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 12:03:47 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 12:03:47 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 12:03:47 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 12:03:47 INFO  DynamicDaoImpl:61 - trim과 prifix 문법JobsDto [job_id=null, job_title=President, min_salary=0, max_salary=0]
+2024-05-31 12:03:47 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-31 12:03:47 DEBUG PooledDataSource:448 - Created connection 459718907.
+2024-05-31 12:03:47 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@1b66c0fb]
+2024-05-31 12:03:47 DEBUG getJobsTrim:137 - ==>  Preparing: SELECT JOB_ID, JOB_TITLE, MIN_SALARY MAX_SALARY FROM JOBS WHERE JOB_TITLE=?
+2024-05-31 12:03:47 DEBUG getJobsTrim:137 - ==> Parameters: President(String)
+2024-05-31 12:03:48 TRACE getJobsTrim:143 - <==    Columns: JOB_ID, JOB_TITLE, MAX_SALARY
+2024-05-31 12:03:48 TRACE getJobsTrim:143 - <==        Row: AD_PRES, President, 20080
+2024-05-31 12:03:48 DEBUG getJobsTrim:137 - <==      Total: 1
+2024-05-31 12:13:09 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-31 12:13:09 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 12:13:09 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 12:13:09 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 12:13:09 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 12:13:09 INFO  DynamicDaoImpl:70 - <set>은 자동으로 set 절의 구분자인 ,를 제거
+2024-05-31 12:13:09 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-31 12:13:09 DEBUG PooledDataSource:448 - Created connection 629454893.
+2024-05-31 12:13:09 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@2584b82d]
+2024-05-31 12:13:09 DEBUG updateJobsSet:137 - ==>  Preparing: UPDATE JOBS SET JOB_ID=? , JOB_TITLE=? WHERE JOB_ID='AD_PRES';
+2024-05-31 12:13:30 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-31 12:13:30 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 12:13:30 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 12:13:30 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 12:13:30 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 12:13:30 INFO  DynamicDaoImpl:70 - <set>은 자동으로 set 절의 구분자인 ,를 제거
+2024-05-31 12:13:30 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-31 12:13:30 DEBUG PooledDataSource:448 - Created connection 1764996806.
+2024-05-31 12:13:30 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@6933b6c6]
+2024-05-31 12:13:30 DEBUG updateJobsSet:137 - ==>  Preparing: UPDATE JOBS WHERE JOB_ID='AD_PRES';
+2024-05-31 12:13:30 DEBUG updateJobsSet:137 - ==> Parameters: 
+2024-05-31 12:15:26 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-31 12:15:26 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 12:15:26 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 12:15:26 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 12:15:26 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 12:15:26 INFO  DynamicDaoImpl:70 - <set>은 자동으로 set 절의 구분자인 ,를 제거
+2024-05-31 12:15:26 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-31 12:15:26 DEBUG PooledDataSource:448 - Created connection 1764996806.
+2024-05-31 12:15:26 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@6933b6c6]
+2024-05-31 12:15:26 DEBUG updateJobsSet:137 - ==>  Preparing: UPDATE JOBS WHERE JOB_ID='AD_PRES'
+2024-05-31 12:15:26 DEBUG updateJobsSet:137 - ==> Parameters: 
+2024-05-31 12:16:41 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-31 12:16:41 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 12:16:41 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 12:16:41 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 12:16:41 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 12:16:41 INFO  DynamicDaoImpl:70 - <set>은 자동으로 set 절의 구분자인 ,를 제거
+2024-05-31 12:16:41 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-31 12:16:41 DEBUG PooledDataSource:448 - Created connection 1764996806.
+2024-05-31 12:16:41 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@6933b6c6]
+2024-05-31 12:16:41 DEBUG updateJobsSet:137 - ==>  Preparing: UPDATE JOBS SET JOB_TITLE=? WHERE JOB_ID='AD_PRES'
+2024-05-31 12:16:41 DEBUG updateJobsSet:137 - ==> Parameters: President(String)
+2024-05-31 12:16:41 DEBUG updateJobsSet:137 - <==    Updates: 1
+2024-05-31 12:25:37 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-31 12:25:37 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 12:25:37 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 12:25:37 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 12:25:37 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 12:25:37 INFO  DynamicDaoImpl:70 - <set>은 자동으로 set 절의 구분자인 ,를 제거
+2024-05-31 12:25:37 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-31 12:25:37 DEBUG PooledDataSource:448 - Created connection 1764996806.
+2024-05-31 12:25:37 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@6933b6c6]
+2024-05-31 12:25:37 DEBUG updateJobsSet:137 - ==>  Preparing: UPDATE JOBS SET JOB_ID=? WHERE JOB_ID='AD_PRES'
+2024-05-31 12:25:37 DEBUG updateJobsSet:137 - ==> Parameters: AD_PRES(String)
+2024-05-31 12:25:37 DEBUG updateJobsSet:137 - <==    Updates: 1
+2024-05-31 12:26:29 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2024-05-31 12:26:29 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 12:26:29 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 12:26:29 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 12:26:29 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-05-31 12:26:29 INFO  DynamicDaoImpl:70 - <set>은 자동으로 set 절의 구분자인 ,를 제거
+2024-05-31 12:26:29 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-05-31 12:26:29 DEBUG PooledDataSource:448 - Created connection 1764996806.
+2024-05-31 12:26:29 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@6933b6c6]
+2024-05-31 12:26:29 DEBUG updateJobsSet:137 - ==>  Preparing: UPDATE JOBS SET JOB_TITLE=? WHERE JOB_ID='AD_PRES'
+2024-05-31 12:26:30 DEBUG updateJobsSet:137 - ==> Parameters: President(String)
+2024-05-31 12:26:30 DEBUG updateJobsSet:137 - <==    Updates: 1

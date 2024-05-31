@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.min.edu.model.DynamicDaoImpl">
+	<sql id="selAll">
+		SELECT JOB_ID, JOB_TITLE, MIN_SALARY MAX_SALARY
+		FROM JOBS
+	</sql>
+
+	<!-- if문을 통한 조건을 판단하여 여러 개의 쿼리를 단 하나의 작동으로 만든다 -->
+	<!-- JOB_ID의 검색 결과가 없다면 전체 조회 실행, 있다면 상세 조회 실행 -->
+
+	<select id="getJobsIf" parameterType="java.util.Map"
+		resultType="JobsDto">
+		<include refid="selAll" />
+		<if test="id != null">
+			WHERE JOB_ID=#{id}
+		</if>
+	</select>
+
+	<!-- iterator(반복문)를 통한 쿼리문의 IN 절을 생성한다 java.util.List, java.util.Map<String, 
+		List> -->
+	<select id="getJobsMap" parameterType="java.util.Map"
+		resultType="JobsDto">
+		<include refid="selAll" />
+		WHERE JOB_ID IN
+		<!-- IN절이기 때문에 하나 검색, 여러 개 검색 다 가능 -->
+		<!-- 전달되는 paramaterType이 Map이라면 collection의 값은 Map의 key 값이 된다 -->
+		<foreach collection="ids" item="job_id" open="(" separator=","
+			close=")">
+			#{job_id}
+		</foreach>
+	</select>
+
+	<select id="getJobsList" parameterType="java.util.List"
+		resultType="JobsDto">
+		<include refid="selAll" />
+		WHERE JOB_ID IN
+		<!-- 전달되는 paramaterType이 List라면 collection의 값을 list로 작성해야된다 -->
+		<foreach collection="list" item="job_id" open="("
+			separator="," close=")">
+			#{job_id}
+		</foreach>
+	</select>
+
+	<select id="example01" parameterType="java.util.List"
+		resultType="com.min.edu.dto.Jobs">
+		<foreach collection="list" item="job_name"
+			separator="UNION ALL" index="index">
+			SELECT #{index} AS IDX, #{job_name} AS
+			NAME FROM DUAL
+		</foreach>
+	</select>
+
+	<!-- choose문(선택문)/ 여러 개의 where 조건 중 하나가 선택됨 -->
+	<select id="getJobsChoose" parameterType="java.util.Map"
+		resultType="JobsDto">
+		<include refid="selAll" />
+		<!-- 조건이 맞을 경우 where이 자동으로 붙어 아래 쿼리 실행 -->
+		<where>
+			<choose>
+				<when test="job_id != null">
+					JOB_ID=#{job_id}
+				</when>
+				<when test="job_title != null">
+					JOB_TITLE=#{job_title}
+				</when>
+			</choose>
+		</where>
+	</select>
+
+	<select id="getJobsTrim" parameterType="JobsDto"
+		resultType="JobsDto">
+		<include refid="selAll" />
+		<trim prefix="WHERE" prefixOverrides="AND">
+			<!-- AND가 나왔을 때 WHERE 절로 교체.. -->
+			<if test="job_id != null">
+				JOB_ID=#{job_id}
+			</if>
+			<if test="job_title != null">
+				AND JOB_TITLE=#{job_title}
+				<!-- 
+					만약 id의 값이 들어오지 않았을 때 위의 쿼리는 실행되지 않고 이 쿼리만 실행되는데
+					앞에 AND가 붙으면 쿼리가 맞지 않기 때문에 AND가 나왔을 때 WHERE 절로 교체!
+				 -->
+			</if>
+		</trim>
+	</select>
+	
+	<!-- delete지만 update로 실행.. -->
+	<delete id="updateJobsSet" parameterType="JobsDto">
+		UPDATE JOBS
+		<!-- 자동으로 set 값의 구분자 ,를 오버라이드해서 지워줌 -->
+			<set>
+				<if test="job_id != null">
+					JOB_ID=#{job_id} ,
+				</if>
+				<if test="job_title != null">
+					JOB_TITLE=#{job_title} 
+				</if>
+			</set>
+		WHERE JOB_ID='AD_PRES'
+	</delete>
+
+	<delete id="updateJobsTrim" parameterType="JobsDto">
+		UPDATE JOBS
+			<trim prefix="SET" suffixOverrides=",">
+			<!-- 앞 쪽에 SET은 고정/ 쿼리에 따라 ,가 제거되는지 안되는지 확인 -->
+				<if test="job_id != null">
+					JOB_ID=#{job_id} ,
+				</if>
+				<if test="job_title != null">
+					JOB_TITLE=#{job_title} 
+				</if>
+			</trim>
+		WHERE JOB_ID='AD_PRES'
+	</delete>
+
+
+
+	<!-- insert 다중 값 처리는 어케하지 -->
+
+
+
+</mapper>
